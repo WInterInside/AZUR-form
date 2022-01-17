@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  min-height: 52px;
+  width: 335px;
+  border: none;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 5px 20px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  background-color: rgb(185, 205, 241);
+
+  &--reg {
+    background: linear-gradient(90deg, #FA1C82 0%, #9D50FF 100%);
+  }
+}
